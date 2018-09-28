@@ -11,7 +11,7 @@
 	<classpathentry kind="lib" path="C:/FH_Campus_Wien/Semester_5_1819/Bachelour_Thesis 1/Algorithmen/ToolkitAisExtension/lib/SOCR_plugin.jar"/>
 	<classpathentry kind="lib" path="C:/FH_Campus_Wien/Semester_5_1819/Bachelour_Thesis 1/Algorithmen/ToolkitAisExtension/lib/ssj.jar"/>
 	<classpathentry kind="lib" path="C:/FH_Campus_Wien/Semester_5_1819/Bachelour_Thesis 1/Algorithmen/ToolkitAisExtension/lib/ThirdPartyJars.jar"/>
-	<classpathentry kind="lib" path="C:/FH_Campus_Wien/Semester_5_1819/Bachelour_Thesis 1/Algorithmen/ToolkitAisExtension/lib/tsp.zip"/>
 	<classpathentry kind="lib" path="C:/FH_Campus_Wien/Semester_5_1819/Bachelour_Thesis 1/Algorithmen/ToolkitAisExtension/lib/gcp.zip"/>
+	<classpathentry kind="lib" path="lib/tsp.zip"/>
 	<classpathentry kind="output" path="src"/>
 </classpath>

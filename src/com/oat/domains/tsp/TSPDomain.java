@@ -81,9 +81,12 @@ public class TSPDomain extends Domain
         {
             try
             {
-                String problemFile = classList[i];
-                String solutionFile = problemFile.substring(0, problemFile.indexOf('.')) + ".opt.tour";
+               String problemFile = classList[i];
+               String solutionFile = problemFile.substring(0, problemFile.indexOf('.')) + ".opt.tour";
+                
+ 
                 list[i] = new TSPProblem(problemFile, solutionFile);
+                
             }
             catch (Exception e)
             {
