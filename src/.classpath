@@ -7,5 +7,12 @@
 	<classpathentry kind="lib" path="/TAE/lib/jcommon-1.0.5.jar"/>
 	<classpathentry kind="lib" path="/TAE/lib/jfreechart-1.0.2.jar"/>
 	<classpathentry kind="lib" path="/TAE/lib/tsp.zip"/>
+	<classpathentry kind="lib" path="/TAE/lib/ThirdPartyJars.jar"/>
+	<classpathentry kind="lib" path="/TAE/lib/gcp.zip"/>
+	<classpathentry kind="lib" path="/TAE/lib/junit-4.2.jar"/>
+	<classpathentry kind="lib" path="/TAE/lib/osp_core_v1.0.4.jar"/>
+	<classpathentry kind="lib" path="/TAE/lib/SOCR_core.jar"/>
+	<classpathentry kind="lib" path="/TAE/lib/SOCR_plugin.jar"/>
+	<classpathentry kind="lib" path="/TAE/lib/ssj.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
