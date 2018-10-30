@@ -1,0 +1,6 @@
+#Fri Oct 19 14:00:35 CEST 2018
+name=1.Run
+stopcondition=class\=com.oat.stopcondition.LackOfImprovementStopCondition\:WindowSize\=1000
+description=1
+runstatistics=com.oat.probes.BestScoreProbe\:com.oat.probes.RunTimeMillisProbe\:com.oat.probes.TotalEvaluationsProbe
+domain=com.oat.domains.tsp.TSPDomain
