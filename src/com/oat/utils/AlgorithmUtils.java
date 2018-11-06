@@ -241,6 +241,7 @@ public class AlgorithmUtils
             if(s.isEvaluated())
             {
                 tmp.add(s);
+      
             }
         }        
         if(tmp.isEmpty())

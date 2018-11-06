@@ -89,7 +89,8 @@ public class CLONALGT extends Algorithm
     public String getDetails()
     {
         return "Clonal Selection Algorithm (CLONALG): " +
-                "as described in: Leandro N. de Castro and Fernando J. Von Zuben. Learning and optimization using the clonal selection principle. IEEE Transactions on Evolutionary Computation. 2002 Jun; 6(3):239-251. ISSN: 1089-778X.";
+                "as described in: Leandro N. de Castro and Fernando J. Von Zuben. Learning and optimization using the clonal selection principle. IEEE Transactions on Evolutionary Computation. 2002 Jun; 6(3):239-251. ISSN: 1089-778X."
+                + "	Expanded with Parameter free adaptive clonal selection";
     }
     
     @Override
@@ -165,7 +166,7 @@ public class CLONALGT extends Algorithm
         }
     }
     
-    //Added from com.oat.domains.cfo.algorithms.immune.AdaptiveClonalSelection.java
+    //Added from com.oat.domains.cfo.algorithms.immune.AdaptiveClonalSelection.java for adaptive behavouir
     protected void updateAutomaticParameters(double lastBest, double currentBest, Problem p, Random r)
     {
         // really, all we care about is, whether or not there was an improvement with the new paramters
@@ -192,6 +193,7 @@ public class CLONALGT extends Algorithm
     {
         cloneFactorStrategy = (r.nextBoolean() ? oldCloneFactorStrategy/ES_ADJUSTMENT_PARAM : oldCloneFactorStrategy*ES_ADJUSTMENT_PARAM);
         numClones = (int) Math.round(RandomUtils.randomGaussian(oldNumClones, oldCloneFactorStrategy, r));
+        //numClones=(int) (numClones*1.5);
         // paramter fixing
         if(numClones < 1)
         {
@@ -206,6 +208,7 @@ public class CLONALGT extends Algorithm
     {
         clonePopSubsetStrategy = (r.nextBoolean() ? oldClonePopSubsetStrategy/ES_ADJUSTMENT_PARAM : oldClonePopSubsetStrategy*ES_ADJUSTMENT_PARAM);
         clonePopSubset = (int) Math.round(RandomUtils.randomGaussian(oldClonePopSubset, oldClonePopSubsetStrategy, r));
+        //clonePopSubset= (int) (clonePopSubset+1.6);
         // paramter fixing
         if(clonePopSubset < 1)
         {
